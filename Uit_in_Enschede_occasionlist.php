@@ -7,9 +7,9 @@ Author: Ruben Damink
 Author URI: http://rubendamink.nl
 */
 
-//[uie_occasionlist]
+//[occasionlist]
 function foobar_func( $atts ){
  return "foo and bar";
 }
-add_shortcode( 'uie_occasionlist', 'foobar_func' );
+add_shortcode( 'occasionlist', 'foobar_func' );
 ?>
