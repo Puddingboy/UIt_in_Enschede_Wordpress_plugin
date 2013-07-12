@@ -6,4 +6,10 @@ Description: Retrieves information about occasions from <a href="http://www.uiti
 Author: Ruben Damink
 Author URI: http://rubendamink.nl
 */
+
+//[uie_occasionlist]
+function foobar_func( $atts ){
+ return "foo and bar";
+}
+add_shortcode( 'uie_occasionlist', 'foobar_func' );
 ?>
